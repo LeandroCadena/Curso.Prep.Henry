@@ -1,0 +1,21 @@
+Respuestas:
+
+Variables: Una variable es un dato almacenado, que puede ser de diferente tipo (numéros, palabras, etc), el cual, se puede utilizar en el futuro. 
+
+Strings: Un dato tipo "String" hace referencia a una cadena de carácteres almacenados. Se definen entre comillas siempre.
+
+Funciones (argumentos, `return`): Una función es una forma de guardar codigo, para no tener que escribirlo nuevamente, y de esta forma facilitar el trabajo.
+Los argumentos de la función son los datos que le proporcionamos a la misma, para que esta interactue con ellos y nos devuelva un resultado.
+Y "return" es el dato que nos devuelve la funcion, como resultado de la ejecución de la misma.
+
+Declaraciones `if`: la declaracion "if" es básicamente una operacion de control de flujo, que funciona de la siguiente forma:
+
+Si (condición) entonces {
+    Ocurre esto
+} Sino Si {
+    Ocurre esto
+} Sino {
+    Ocurre esto
+}
+
+Valores booleanos (`true`, `false`): Los valores booleanos son un tipo de dato los cuales tienen 2 valores posibles, uno es "verdadero" y el otro "falso".
