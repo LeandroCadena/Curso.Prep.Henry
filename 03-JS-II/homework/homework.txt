@@ -1,0 +1,15 @@
+Respuestas:
+
+`for` : El bucle for es una herramienta que nos permite evaluar una expresion de forma repetida, esto nos ayuda a no tener que repetir el código.
+
+
+`&&`, `||`, `!` : Estos simbolos hacen referencia a los operadores lógicos.
+
+El operador lógico "AND" en español "Y" (&&), nos sirve para analizar dos expresiones, y nos retornará un "true" solo en el caso de que ambas expresiones sean verdaderas.
+Si alguna de las expresiones o ambas son falsas, retornará "false"".
+
+El operador lógico "OR" en español "O" (||), analiza dos expresiones, pero, solo retornará "false" cuando ambas expresiones sean falsas.
+Si alguna de las expresiones o ambas es verdadera, retornará "true".
+
+El operador lógico "NOT" en español "NO" (!), analiza la expresión y devuelve el valor booleano opuesto. Es decir, si la expresion es falsa devuelve "true".
+

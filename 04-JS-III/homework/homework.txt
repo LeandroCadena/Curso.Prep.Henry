@@ -1,0 +1,11 @@
+Respuestas:
+
+Arrays: Un array es un arreglo de elementos ordenados en forma de lista. Este se define con "[]" y puede contener cualquier tipo de dato, por ejemplo:
+
+Lista = [1, "Hola", [1, 2, 3], undefined, null];
+
+A cada elemento del array le corresponde una posición, la cual se denomina "índice", iniciando desde el numero 0 hasta un numero menos de la cantidad de elementos del mismo.
+
+Lista = [1, "Hola", [1, 2, 3], undefined, null];
+
+Índice   0     1         2         3        4
