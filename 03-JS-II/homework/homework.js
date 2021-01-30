@@ -22,13 +22,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if (idioma === 'aleman') {
-    console.log ('Guten Tag!');
+    return 'Guten Tag!';
   } else if (idioma === 'mandarin') {
-    console.log ('Ni Hao!');
+    return 'Ni Hao!';
   } else if (idioma === 'ingles') {
-    console.log ('Hello!');
+    return 'Hello!';
   } else {
-    console.log ('Hola!');
+    return 'Hola!';
   }
 }
 
@@ -75,13 +75,13 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if (numero % 3 === 0 && numero % 5 === 0) {
-    console.log('fizzbuzz');
+    return 'fizzbuzz';
   } else if (numero % 3 === 0) {
-    console.log('fizz');
+    return 'fizz';
   } else if (numero % 5 === 0) {
-    console.log('buzz');
+    return 'buzz';
   } else {
-    console.log(numero);
+    return numero;
   }
 }
 
