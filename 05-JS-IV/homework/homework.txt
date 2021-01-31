@@ -1,0 +1,20 @@
+Respuestas:
+
+Objetos: Un objeto en programación es una coleccion de características propias del objeto que se está representando.
+
+Propiedades: son los atributos o características que posee un objeto.
+
+Métodos: los métodos son las funciones que posea un objeto.
+
+Bucle for…in: Es un bucle integrado en javascript que se utiliza para recorrer objetos, a diferencia del bucle for, este declara una variable y con la palabra clave "in" recorre el objeto:
+for (let "variable" in objeto) {
+    
+}
+
+Notación de puntos vs notación de corchetes: Ambas son formas válidas para poder llamar a un elemento de un objeto.
+
+La notación de puntos (dot notation) se utiliza colocando el nombre del objeto, un punto, y el nombre de la clave que queremos llamar. Por ejemplo:
+objeto.nombre;
+
+La notación de corchetes (bracket notation) se utiliza colocando el nombre del objeto, corchetes, y el nombre de la clave entre comillas como un string. Por ejemplo:
+objeto['nombre'];
