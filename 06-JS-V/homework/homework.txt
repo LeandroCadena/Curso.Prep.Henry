@@ -1,0 +1,49 @@
+Respuestas:
+
+`prototype`: javascript es un lenguaje que posee un diseño basado en prototipos, es decir, todos los objetos en JS tiene una referencia a otro objeto llamado proto.
+De esta forma podemos utilizar propiedades sin haberlas creadas anteriormente, debido a que se encuentran en el prototipo.
+Cuando llamamos una propiedad que no se encuentra definida en el objeto, la busca en el prototipo del mismo.
+
+
+_Constructors_ (de Clases): las clases son plantillas que se utilizan para crear objetos. 
+Una de las formas de crear un constructor de clases, es mediante un function constructor, que es, una funcion que nos permitirá mediante el keyword "new" crear objetos a partir de una funcion constructora.
+
+var function Persona (nombre, edad) {
+    this.nombre = nombre;
+    this.edad = edad;
+}
+
+Leandro = new Persona('Leandro', 24);
+
+
+Object.create: Este constructor recibe un objeto como parámetro y crea un objeto nuevo, el cual, tiene de prototipo al primer objeto:
+
+var Persona = {
+    nombre = 'Defecto'
+    edad = 'Defecto'
+};
+
+var Toni = Object.create(Persona);
+
+
+class : Este constructor crea una clase, de la cual, se pueden crear nuevos objetos:
+
+class Persona = {
+    constructor(nombre, edad){
+        this.nombre = nombre,
+        this.edad = edad
+    }
+
+    saludar() {
+        console.log('Hola mi nombre es ' + this.nombre);
+    }
+}
+
+super: El método super nos permite invocar los argumentos de la clase padre o prototipo.
+
+class Empleado extends Persona {
+    constructor(nombre,edad,sueldo){
+        super(nombre, edad);
+        this.sueldo = sueldo;
+    }
+}
