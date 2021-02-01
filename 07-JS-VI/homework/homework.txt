@@ -1,0 +1,19 @@
+Respuestas:
+
+Funciones Callback: Javascript es un lenguaje que trata a las funciones como first class (primera clase).
+Esto quiere decir que una funcion puede recibir de argumento otra funcion, se puede retornar una funcion, guardarla en variable, etc.
+
+Un "Callback", hace referencia, a cuando pasamos una funcion como argumento de otra.Por ejemplo:
+
+creamos una funcion:
+function saludar (nombre) {
+    return 'Hola '+ nombre;
+}
+
+creamos una funcion con Callback:
+function crearSaludo (nombre, callb) {
+    return callb(nombre);
+}
+
+la llamamos de la siguiente forma:
+crearSaludo('Leandro', saludar);
