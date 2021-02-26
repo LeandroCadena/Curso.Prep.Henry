@@ -1,0 +1,38 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+}
+.container {
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.rightSide {
+    position: absolute;
+    margin-left: 285px;
+}
+.leftSide {
+    position: absolute;
+    width: 285px;
+    left: 0;
+}
+.rightCenter {
+    position: absolute;
+}
+.education {
+    position:relative;
+    border-style: solid;
+    border-color: aliceblue;
+}
+.left {
+    position: absolute;
+    left: 0;
+    width: 110px;
+}
+.right {
+    margin-left: 110px;
+}
